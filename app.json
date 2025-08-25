@@ -7,10 +7,10 @@
   "stack": "heroku-24",
   "env": {
     "SESSION_ID": {
-      "description": "Put your SESSION_ID here.",
+      "description": "{"noiseKey":{"private":{"type":"Buffer","data":"8L7YKQltH/P3eXgmAvAxHJyIRbTi8B1yZuecMS5Tamc="},"public":{"type":"Buffer","data":"Xd8x5OJkD7Jhpx7PASouuxC+9uIx6LXFC9DlEV2rX0s="}},"pairingEphemeralKeyPair":{"private":{"type":"Buffer","data":"6HK6w9ZUSmna6oJxWLC7w2amOd936XSe0XU/QfD2a00="},"public":{"type":"Buffer","data":"LRaH7g+kxaO5xvAUg5iGiZl5xLsBh/wE2tCV+ua/H24="}},"signedIdentityKey":{"private":{"type":"Buffer","data":"4HTa+TQV05jOU8fgWA5oSH7uJ/pWhi9dWmAB+52M0Es="},"public":{"type":"Buffer","data":"9gOP52vf3Mi3y7f2ZLUGes/lzD/6FxcTTAr3t+mnxjw="}},"signedPreKey":{"keyPair":{"private":{"type":"Buffer","data":"QATBuLd1aKwS53R/B2bF1CVtLh90LvdGpZpMyhyU+2o="},"public":{"type":"Buffer","data":"OZq+CMZ/pyklj+F6LxOSNviHEcmul3nk8gJTPp4YC1c="}},"signature":{"type":"Buffer","data":"50i0dsVG5pf6utsW8d9JvanxjWdFOklRjoDSs5Tg1389U5lzR3dHMvFss4BYhop/Cz0MgFXBsrRXTq9BM+owgw=="},"keyId":1},"registrationId":33,"advSecretKey":"Fr9uM2Et5HG+7Vh/hBKpnWy/Ylx2SosfuaEV1kf2038=","processedHistoryMessages":[{"key":{"remoteJid":"18298547824@s.whatsapp.net","fromMe":true,"id":"3AA430665C6AC6CCCAB0"},"messageTimestamp":1756146648},{"key":{"remoteJid":"18298547824@s.whatsapp.net","fromMe":true,"id":"3A61A535C95D17CB3EC6"},"messageTimestamp":1756146649},{"key":{"remoteJid":"18298547824@s.whatsapp.net","fromMe":true,"id":"3ADDDB50AD37A9898866"},"messageTimestamp":1756146650}],"nextPreKeyId":31,"firstUnuploadedPreKeyId":31,"accountSyncCounter":1,"accountSettings":{"unarchiveChats":false},"deviceId":"tYfi5LsVTAmRdQOEgZJAww","phoneId":"272e54ab-d3aa-4b66-97da-dd4654535f3c","identityId":{"type":"Buffer","data":"GVKBkehYTQt3YnZRV3wbmQVeGYM="},"registered":true,"backupToken":{"type":"Buffer","data":"O+PmUTVAdNfeSgb9Hmw+DBD3x+4="},"registration":{},"pairingCode":"CYRILDEV","me":{"id":"18298547824:1@s.whatsapp.net","name":"Zizi","lid":"156045372571754:1@lid"},"account":{"details":"COij8vsFENDXssUGGAEgACgA","accountSignatureKey":"t3YtrNAMCMqSLJv1S2qxE6iiKx3IAzpnuY4lVRKUiQ0=","accountSignature":"bb11ITvdG4YEo3iVQGivNx/5KMxAGaULqefKwuTLBQ+eLOj9MDFNTlgihBEZTV1k7L/+rGosm3l4yMSAmZ4qDA==","deviceSignature":"vLUhhbz8IzICtca6HQKGU2L2Wh1A3wDqfOS8+upV7Aw5u4OUcDIaR4Kxljjwa3nyZsFYwfR8MyfXaUX3HRT4ig=="},"signalIdentities":[{"identifier":{"name":"18298547824:1@s.whatsapp.net","deviceId":0},"identifierKey":{"type":"Buffer","data":"Bbd2LazQDAjKkiyb9UtqsROooisdyAM6Z7mOJVUSlIkN"}}],"platform":"smbi","routingInfo":{"type":"Buffer","data":"CAIICA=="},"lastAccountSyncTimestamp":1756146647,"lastPropHash":"3R9Z39","myAppStateKeyId":"AAAAAEBE","preKeys":{"private":{"type":"Buffer","data":"aFuyyVu2SYH/uzMShfL71E4bWWWrgPM3cHUtus/D4Ew="},"public":{"type":"Buffer","data":"IfP8eTjN/og+bX6m0Lf/EWNhpDukIYnVgMvPWvNLAgI="}},"senderKeys":{},"timestamp":"2025-08-25T18:30:52.815Z"}",
       "value": ""
     },
-    "PREFIX": {
+    "PREFIX":"."
       "description": "Enter your desired prefix for bot. You can set `all | . | .!*`",
       "value": "."
     },
@@ -51,11 +51,11 @@
     },
     "OWNER_NUMBER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\").",
-      "value": "2349066528353"
+      "value": "18298547824"
     },
     "PUBLIC": {
       "description": "Worktype of your bot. Use public or private. If it is private, then only the bot number can use it. If public, then everyone can use it.",
-      "value": "public"
+      "value": "privé"
     },
     "AUTHOR": {
       "description": "Put Sticker Pack Author_Name.",
